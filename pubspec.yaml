@@ -1,0 +1,24 @@
+name: scandit_flutter_datacapture_id_aamva_barcode_verification
+description: This plugin adds the Aamva barcode verification capabilities of the Scandit Data Capture SDK.
+version: 6.20.0
+homepage: https://scandit.com
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  linter: ^1.30.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.scandit.datacapture.flutter.id_aamva_barcode_verification
+        pluginClass: ScanditFlutterDataCaptureIdAamvaBarcodeVerificationPlugin
+      ios:
+        pluginClass: ScanditFlutterDatacaptureIdAamvaBarcodeVerificationPlugin
