@@ -11,10 +11,10 @@ Pod::Spec.new do |s|
   s.author                  = { "Scandit" => "support@scandit.com" }
   s.platforms               = { :ios => "13.0" }
   s.source                  = { :path => "." }
-  s.swift_version           = "4.0"
+  s.swift_version           = "5.0"
   s.source_files            = "Classes/**/*.{h,m,swift}"
   s.requires_arc            = true
-  s.dependency 'ScanditIdAamvaBarcodeVerification', '= 6.21.3'
+  s.dependency 'ScanditIdAamvaBarcodeVerification', '= 6.22.1'
 
   s.dependency "Flutter"
 
